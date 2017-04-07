@@ -32,6 +32,11 @@ public class Clerk {
 		System.out.println("Enter the price of your item.");
 		
 		cost += in.nextDouble();
+		in.nextLine();
+		
+		System.out.println("Do you want to add another item?");
+		
+		answer = in.next();
 		
 	}
 	
